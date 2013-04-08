@@ -20,6 +20,9 @@ A bullet list:
 
 * Item foo
 * Item bar
+ - Sub bullet 1
+ - Sub bullet 2
+* Item new
 
 A numbered list:
 
