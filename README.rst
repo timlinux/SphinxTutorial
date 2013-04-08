@@ -61,6 +61,8 @@ False  True   True
 True   True   True 
 =====  =====  ======
 
+Preformatted text
+.................
 
 This is how you show a program listing or some preformatted text::
 
@@ -70,6 +72,8 @@ This is how you show a program listing or some preformatted text::
     drwxr-xr-x  19 timlinux  staff   646B Apr  8 09:27 ..
     drwxr-xr-x  14 timlinux  staff   476B Apr  8 10:00 .git
     -rw-r--r--   1 timlinux  staff   206B Apr  8 09:59 README.rst
+
+------------
 
 You can find a complete list of all the supported tags here
 http://docutils.sourceforge.net/docs/user/rst/quickref.html
