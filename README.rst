@@ -8,6 +8,8 @@ This is how you write **bold**.
 
 This is how you write *italics*.
 
+This is how you do a hyperlink: http://google.com
+
 This is how you show a program listing or some preformatted text::
 
     shrub:SphinxTutorial timlinux$ ls -lah
