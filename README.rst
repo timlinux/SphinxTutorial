@@ -40,6 +40,28 @@ Here is how to make a simple table:
 | Tim                | CEO of Microsoft         |
 +--------------------+--------------------------+
 
+You can also use an equals line to indicate the header:
+
++--------------------+--------------------------+
+| Name               | Job                      |
++====================+==========================+
+| Tim                | CEO of Microsoft         |
++--------------------+--------------------------+
+
+This is another way to make a table:
+
+=====  =====  ====== 
+   Inputs     Output 
+------------  ------ 
+  A      B    A or B 
+=====  =====  ====== 
+False  False  False 
+True   False  True 
+False  True   True 
+True   True   True 
+=====  =====  ======
+
+
 This is how you show a program listing or some preformatted text::
 
     shrub:SphinxTutorial timlinux$ ls -lah
