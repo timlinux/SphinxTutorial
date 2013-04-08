@@ -1,8 +1,8 @@
-Hello World!
-============
+Restructured Text Primer
+========================
 
-It was nice to meet you
------------------------
+Basic markup
+------------
 
 This is how you write **bold**.
 
@@ -19,6 +19,14 @@ A numbered list:
 
 #. Item one
 #. Item two
+
+Here is how to make a simple table:
+
++--------------------+--------------------------+
+| Name               | Job                      |
++--------------------+--------------------------+
+| Tim                | CEO of Microsoft         |
++--------------------+--------------------------+
 
 This is how you show a program listing or some preformatted text::
 
