@@ -95,8 +95,8 @@ https://code.google.com/p/pythonxy/downloads/list
 Sphinx
 ======
 
-Sphinx Setup under Windows
---------------------------
+Sphinx Installation
+-------------------
 
 Install python
 ...............
@@ -182,6 +182,13 @@ From terminal run this::
 
     sudo pip install sphinx
 
+
+Sphinx Quickstart
+-----------------
+
+In your working dir (e.g. ``c:\Users\joe\Documents\sphinxtutorial``) create a new sphinx project::
+
+    sphinx-quickstart
 
 
 
