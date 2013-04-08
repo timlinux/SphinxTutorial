@@ -81,5 +81,175 @@ http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 How to install git on Ubuntu::
 
-    sudo apt-get install git
+    sudo apt-get install 
+
+How to install rst2pdf on Ubunut::
+
+	sudo apt-get install rst2pdf
+
+You can find a windows installer to covert rst to pdf here:
+
+https://code.google.com/p/pythonxy/downloads/list
+
+
+Sphinx
+======
+
+Sphinx Setup under Windows
+--------------------------
+
+Install python
+...............
+
+Windows
+^^^^^^^
+
+Downlad python from here:
+
+http://python.org/download/
+
+And choose the latest 2.7 windows 32 bit installer e.g.
+
+http://python.org/ftp/python/2.7.4/python-2.7.4.msi
+
+Run the installer accepting all the prompts.
+
+My Computer -> System Properties -> Environment Variables
+
+Now add python to end of 'PATH'::
+
+    c:\python27;c:\python27\Scripts
+
+OSX
+^^^
+
+Python is already installed by default
+
+Linux
+^^^^^
+
+Python is already installed by default
+
+
+Install PIP
+...........
+
+Windows
+^^^^^^^
+First you need to get easy install from this location: 
+
+http://pypi.python.org/pypi/setuptools#windows
+
+You need to get the file called ``ez_setup.py`` and save it to ``c:\ez_install.py``
+
+Now you need to open a command prompt window:
+
+* press Windows Key + R
+* type ``cmd.exe`` then right click and choose 'Run as administrator'
+* type ``cd \`` too move to the top directory
+* run this command: ``python ez_setup.py``
+* now use easy_install to install pip: ``easy_install pip``
+
+OSX
+^^^
+
+Simply open terminal and type this command::
+
+    sudo easy_install pip
+    
+Ubuntu
+^^^^^^
+
+Simply open a terminal and type this command::
+
+    sudo apt-get install python-pip
+
+
+Install sphinx
+..............
+
+Windows
+^^^^^^^
+
+From command prompt or terminal, run this::
+
+    pip install sphinx
+
+OSX and Linux users
+^^^^^^^^^^^^^^^^^^^
+
+From terminal run this::
+
+    sudo pip install sphinx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
